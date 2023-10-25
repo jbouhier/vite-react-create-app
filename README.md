@@ -1,4 +1,4 @@
-# Vite React Create App
+# Vite React Create App ⚛️
 
 Modern React + TypeScript app setup  
 powered by `Vite` build tool and `Vitest` test framework
@@ -8,7 +8,12 @@ The [official React documentation](https://react.dev/learn/start-a-new-react-pro
 hasn't been properly maintained for the past few years. Since then, the JavaScript ecosystem has changed with, for instance the [emergence of Vite build tool](https://2022.stateofjs.com/en-US/libraries/build-tools/), offering significant better performance over [Webpack](https://webpack.js.org/). 
 
 This goal of this project is to address this lack for a simple solution.
+
+## Install
+- Clone this repo 
+- Follow the rest 👇
  
+
 ## Requirements
 - [NodeJS v20+](https://nodejs.org/)
 - [Pnpm](https://pnpm.io/) package manager
