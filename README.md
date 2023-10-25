@@ -35,3 +35,5 @@ This goal of this project is to address this lack for a simple solution.
 - [Vitest](https://vitest.dev/) testing framework
 - [React](https://react.dev/) UI library
 - [TypeScript](https://www.typescriptlang.org/) JavaScript with types 
+- [Effector](https://effector.dev/) State manager
+- [json-server](https://github.com/typicode/json-server) fake rest API 
