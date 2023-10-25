@@ -1,7 +1,9 @@
 # TODO
 
-- Choose CSS tool (i.e: Tailwind, Emotion, MUI...)
-- Setup basic layout w/ CSS tool (Header, Body, Footer)
+- json-server (Take a peek at Mock Service Worker)
 - Setup Vitest
+- Setup Emotion
+- Setup MUI
+- Page layout (Header, Body, Footer)
 - Practice creating tests with Vitest (and react testing library?) 
-- Setup store with Effector
+- Effector store(s)
