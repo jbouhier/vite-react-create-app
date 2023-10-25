@@ -1,7 +1,6 @@
 # TODO
 
 - json-server (Take a peek at Mock Service Worker)
-- Setup Vitest
 - Setup Emotion
 - Setup MUI
 - Page layout (Header, Body, Footer)
