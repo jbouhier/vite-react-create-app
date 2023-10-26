@@ -9,6 +9,7 @@ hasn't been properly maintained for the past few years. Since then, the JavaScri
 
 This goal of this project is to address this lack for a simple solution.
 
+
 ## Install
 - Clone this repo 
 - Follow the rest 👇
@@ -34,6 +35,9 @@ This goal of this project is to address this lack for a simple solution.
 - [Vite](https://vitejs.dev) frontend tooling
 - [Vitest](https://vitest.dev/) testing framework
 - [React](https://react.dev/) UI library
+- [React router](https://reactrouter.com) React router
 - [TypeScript](https://www.typescriptlang.org/) JavaScript with types 
 - [Effector](https://effector.dev/) State manager
+- [Axios](https://github.com/axios/axios) HTTP client
+- [Material UI](https://mui.com/material-ui/getting-started/) UI Components
 - [json-server](https://github.com/typicode/json-server) fake rest API 

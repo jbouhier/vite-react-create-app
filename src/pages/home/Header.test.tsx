@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react'
 import { describe, expect, it } from 'vitest'
-import { Home } from "./Home"
+import { Home } from './Home'
 
-describe('App', () => {
-  it('renders headline', () => {
+describe('Header', () => {
+  it('has Home button', () => {
     render(<Home />)
     const headline = screen.getByText(/Home/i)
     expect(headline).toBeInTheDocument()

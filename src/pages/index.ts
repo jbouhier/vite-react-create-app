@@ -1,2 +1,3 @@
-export { Home } from "./Home"
+export * from "./home"
+export { Error } from "./Error"
 export { About } from "./About"
