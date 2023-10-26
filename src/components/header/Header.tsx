@@ -1,12 +1,17 @@
-import AppBar from '@mui/material/AppBar'
-import Box from '@mui/material/Box'
-import Button from '@mui/material/Button'
-import Container from '@mui/material/Container'
-import Toolbar from '@mui/material/Toolbar'
-import Typography from '@mui/material/Typography'
+import styled from "@emotion/styled"
+import { AppBar, Box, Button, Container, Toolbar, Typography } from '@mui/material'
+import { Link } from 'react-router-dom'
+import { about, home } from '../../paths'
 import { Logo } from './Logo'
 
-const pages = ['Home', 'Showtimes', 'Movies', 'Boop+', 'About']
+const pages = [{
+  label: 'Home',
+  path: home
+},
+{
+  label: 'About',
+  path: about
+}]
 
 export const Header = () => {
   return (
@@ -23,21 +28,21 @@ export const Header = () => {
               display: { xs: 'none', md: 'flex' },
               fontFamily: 'monospace',
               fontWeight: 700,
-              letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
             }}
           >
-            Boop
+            Vite-React
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-            {pages.map((page) => (
+            {pages.map(({ label, path }) => (
               <Button
-                key={page}
-                href=''
+                key={label}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
-                {page}
+                <LinkStyle>
+                  <Link to={path}>{label}</Link>
+                </LinkStyle>
               </Button>
             ))}
           </Box>
@@ -46,3 +51,10 @@ export const Header = () => {
     </AppBar>
   )
 }
+
+const LinkStyle = styled.div`
+  a {
+    color: white;
+    text-decoration: none;
+  }
+`

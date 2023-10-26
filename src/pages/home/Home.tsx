@@ -11,6 +11,6 @@ export const Home = () => {
 // Use @emotion to create elements instead of using react className
 // or any MUI components https://mui.com/material-ui/react-button/
 const Container = styled.div`
-  display: flex;
-  justify-content: center;
+  // display: flex;
+  // justify-content: center;
 `

@@ -1,7 +1,11 @@
+import styled from "@emotion/styled"
+
 export const About = () => {
   return (
-    <>
-      <h2>About</h2>
-    </>
+    <Container>
+      <h1>About</h1>
+    </Container>
   )
 }
+
+const Container = styled.div``
