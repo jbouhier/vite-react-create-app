@@ -15,7 +15,7 @@ const pages = [{
 
 export const Header = () => {
   return (
-    <AppBar position="static">
+    <AppBar position="static" sx={{ boxShadow: 0 }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Logo />
