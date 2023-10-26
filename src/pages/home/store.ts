@@ -1,5 +1,5 @@
 // Template for Effector state manager
-import { createEffect, createEvent, createStore } from "effector";
+import { createEffect, createEvent, createStore } from "effector"
 
 export const addMovie = createEvent<Movie>()
 export const nextMovie = createEvent<string>()
